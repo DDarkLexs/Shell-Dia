@@ -12,17 +12,14 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Page title</v-toolbar-title>
+      <v-toolbar-title>Shell Dia</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
       <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
+        30º
       </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>     
+    
     </v-app-bar>
 
   <!-- Sizes your content based upon application components -->
@@ -47,7 +44,7 @@
       tile>
 
       <v-card-text class="py-0 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>DDarkCoder</strong>
+        {{ new Date().getFullYear() }} — <strong> DDarkCoder </strong>
       </v-card-text>
     </v-card>
      </v-footer>
